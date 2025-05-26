@@ -1,0 +1,20 @@
+Relatório - Lema do Bombeamento
+
+Linguagem escolhida:
+L = { aⁿbⁿ | n ≥ 0 }
+
+Cadeia testada:
+w = "aaabbb"
+p = 3
+
+Saída do programa (exemplo):
+Divisão: x = '', y = 'a', z = 'aabbb'
+  y^0: 'aabbb' -> NÃO pertence
+  y^1: 'aaabbb' -> PERTENCE
+  y^2: 'aaaabbb' -> NÃO pertence
+  y^3: 'aaaaabbb' -> NÃO pertence
+...
+Há uma quebra do lema: a linguagem NÃO pode ser regular.
+
+Conclusão:
+O programa encontrou que, ao bombear a parte y, a cadeia resultante pode sair da linguagem. Isso mostra que a linguagem não é regular. 
